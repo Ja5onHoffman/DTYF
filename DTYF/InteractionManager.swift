@@ -11,6 +11,10 @@ import WatchConnectivity
 
 class InteractionManager: NSObject, ObservableObject {
     
+    @Published var distance: Measurement<UnitLength>?
+    private var didSendDiscoveryToken: Bool = false
+    
+    
 }
 
 
@@ -26,6 +30,22 @@ extension InteractionManager: NISessionDelegate {
     }
     
     func sessionDidStartRunning(_ session: NISession) {
+        //code
+    }
+    
+    
+}
+
+extension InteractionManager: WCSessionDelegate {
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        //code
+    }
+    
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        //code
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
         //code
     }
     
