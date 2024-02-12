@@ -11,6 +11,7 @@
 		31C8986A2B7AAD8E00924D4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C898692B7AAD8E00924D4C /* ContentView.swift */; };
 		31C8986C2B7AAD8F00924D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C8986B2B7AAD8F00924D4C /* Assets.xcassets */; };
 		31C8986F2B7AAD8F00924D4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C8986E2B7AAD8F00924D4C /* Preview Assets.xcassets */; };
+		31C898762B7AADF100924D4C /* InteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C898752B7AADF100924D4C /* InteractionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		31C898692B7AAD8E00924D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31C8986B2B7AAD8F00924D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C8986E2B7AAD8F00924D4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31C898752B7AADF100924D4C /* InteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				31C898672B7AAD8E00924D4C /* DTYFApp.swift */,
 				31C898692B7AAD8E00924D4C /* ContentView.swift */,
+				31C898752B7AADF100924D4C /* InteractionManager.swift */,
 				31C8986B2B7AAD8F00924D4C /* Assets.xcassets */,
 				31C8986D2B7AAD8F00924D4C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C898762B7AADF100924D4C /* InteractionManager.swift in Sources */,
 				31C8986A2B7AAD8E00924D4C /* ContentView.swift in Sources */,
 				31C898682B7AAD8E00924D4C /* DTYFApp.swift in Sources */,
 			);
